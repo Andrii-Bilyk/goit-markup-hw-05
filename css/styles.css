@@ -614,9 +614,6 @@ input[type='checkbox']:checked + .label-checkbox .span-checkbox {
   fill: var(--cloud-color);
 }
 
-/* .input-checkbox {
-} */
-
 .label-checkbox {
   font-size: 12px;
   line-height: 1.17;
