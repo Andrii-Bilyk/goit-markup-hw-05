@@ -577,7 +577,7 @@ img {
   /* fill: none; */
 }
 
-.form-icon:focus {
+input[type='text']:focus + .label-form .form-icon {
   fill: var(--iris-color);
 }
 
@@ -609,7 +609,7 @@ img {
   margin-bottom: 24px;
 }
 
-input[type='checkbox']:checked ~ .span-checkbox {
+input[type='checkbox']:checked + .label-checkbox .span-checkbox {
   background-color: var(--ocean-color);
   border: none;
   fill: var(--cloud-color);
